@@ -1,0 +1,2 @@
+/usr/bin/ar qc libscy_socketio.a  CMakeFiles/socketio.dir/src/client.cpp.o CMakeFiles/socketio.dir/src/packet.cpp.o CMakeFiles/socketio.dir/src/transaction.cpp.o
+/usr/bin/ranlib libscy_socketio.a

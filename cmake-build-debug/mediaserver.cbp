@@ -1,0 +1,2832 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="mediaserver"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\libsourcey\;CMake Files\libsourcey\src\;CMake Files\libsourcey\src\archo\;CMake Files\libsourcey\src\av\;CMake Files\libsourcey\src\base\;CMake Files\libsourcey\src\crypto\;CMake Files\libsourcey\src\http\;CMake Files\libsourcey\src\json\;CMake Files\libsourcey\src\net\;CMake Files\libsourcey\src\sched\;CMake Files\libsourcey\src\socketio\;CMake Files\libsourcey\src\stun\;CMake Files\libsourcey\src\symple\;CMake Files\libsourcey\src\turn\;CMake Files\libsourcey\src\util\;CMake Files\libsourcey\src\webrtc\;CMake Files\libsourcey\cmake\;CMake Files\libsourcey\vendor\;CMake Files\libsourcey\vendor\http_parser\;CMake Files\libsourcey\vendor\libuv\;CMake Files\libsourcey\vendor\zlib\;CMake Files\libsourcey\vendor\minizip\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/lu/CLionProjects/sourcey_test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/lu/CLionProjects/sourcey_test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/lu/CLionProjects/sourcey_test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/lu/CLionProjects/sourcey_test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/lu/CLionProjects/sourcey_test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sourcey_test">
+				<Option output="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/sourcey_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lu/CLionProjects/sourcey_test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DWEBRTC_POSIX"/>
+					<Add option="-D_GLIBCXX_USE_CXX11_ABI=0"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 sourcey_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sourcey_test/fast">
+				<Option output="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/sourcey_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lu/CLionProjects/sourcey_test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DWEBRTC_POSIX"/>
+					<Add option="-D_GLIBCXX_USE_CXX11_ABI=0"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 sourcey_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/lu/CLionProjects/sourcey_test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mediaserver">
+				<Option output="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/mediaserverd" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lu/CLionProjects/sourcey_test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DWEBRTC_POSIX"/>
+					<Add option="-D_GLIBCXX_USE_CXX11_ABI=0"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/http_parser"/>
+					<Add directory="/home/lu/webrtc/include"/>
+					<Add directory="/home/lu/webrtc/include/third_party/boringssl/src/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/archo/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/av/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/crypto/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/http/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/json/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/net/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/sched/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/socketio/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/stun/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/symple/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/turn/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/util/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/webrtc/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/minizip"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/json/src"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 mediaserver"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mediaserver/fast">
+				<Option output="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/mediaserverd" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lu/CLionProjects/sourcey_test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DWEBRTC_POSIX"/>
+					<Add option="-D_GLIBCXX_USE_CXX11_ABI=0"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/http_parser"/>
+					<Add directory="/home/lu/webrtc/include"/>
+					<Add directory="/home/lu/webrtc/include/third_party/boringssl/src/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/archo/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/av/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/crypto/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/http/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/json/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/net/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/sched/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/socketio/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/stun/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/symple/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/turn/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/util/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/webrtc/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/minizip"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/json/src"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 mediaserver/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/lu/CLionProjects/sourcey_test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libuv">
+				<Option output="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/libuv/liblibuv.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/libuv"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/src"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/src/unix"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/libuv/Makefile&quot;  VERBOSE=1 libuv"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/libuv/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/libuv/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/libuv/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libuv/fast">
+				<Option output="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/libuv/liblibuv.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/libuv"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/src"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/src/unix"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/libuv/Makefile&quot;  VERBOSE=1 libuv/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/libuv/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/libuv/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/libuv/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zlib">
+				<Option output="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib/libzlib.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib/Makefile&quot;  VERBOSE=1 zlib"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zlib/fast">
+				<Option output="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib/libzlib.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib/Makefile&quot;  VERBOSE=1 zlib/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zlibstatic">
+				<Option output="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib/libzlib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib/Makefile&quot;  VERBOSE=1 zlibstatic"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zlibstatic/fast">
+				<Option output="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib/libzlib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib/Makefile&quot;  VERBOSE=1 zlibstatic/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minizip">
+				<Option output="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/minizip/libminizip.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/minizip"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/minizip/../zlib"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/minizip/Makefile&quot;  VERBOSE=1 minizip"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/minizip/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/minizip/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/minizip/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minizip/fast">
+				<Option output="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/minizip/libminizip.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/minizip"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/minizip/../zlib"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/minizip/Makefile&quot;  VERBOSE=1 minizip/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/minizip/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/minizip/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/minizip/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="http_parser">
+				<Option output="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/http_parser/libhttp_parser.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/http_parser"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/http_parser/Makefile&quot;  VERBOSE=1 http_parser"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/http_parser/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/http_parser/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/http_parser/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="http_parser/fast">
+				<Option output="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/http_parser/libhttp_parser.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/http_parser"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/http_parser/Makefile&quot;  VERBOSE=1 http_parser/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/http_parser/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/http_parser/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/http_parser/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="archo">
+				<Option output="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/archo/libscy_archo.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/archo"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DArcho_EXPORTS"/>
+					<Add option="-DWEBRTC_POSIX"/>
+					<Add option="-D_GLIBCXX_USE_CXX11_ABI=0"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/archo/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/http_parser"/>
+					<Add directory="/home/lu/webrtc/include"/>
+					<Add directory="/home/lu/webrtc/include/third_party/boringssl/src/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/minizip"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/json/src"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/archo/Makefile&quot;  VERBOSE=1 archo"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/archo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/archo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/archo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="archo/fast">
+				<Option output="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/archo/libscy_archo.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/archo"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DArcho_EXPORTS"/>
+					<Add option="-DWEBRTC_POSIX"/>
+					<Add option="-D_GLIBCXX_USE_CXX11_ABI=0"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/archo/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/http_parser"/>
+					<Add directory="/home/lu/webrtc/include"/>
+					<Add directory="/home/lu/webrtc/include/third_party/boringssl/src/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/minizip"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/json/src"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/archo/Makefile&quot;  VERBOSE=1 archo/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/archo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/archo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/archo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="av">
+				<Option output="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/av/libscy_av.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/av"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DAV_EXPORTS"/>
+					<Add option="-DWEBRTC_POSIX"/>
+					<Add option="-D_GLIBCXX_USE_CXX11_ABI=0"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/av/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/http_parser"/>
+					<Add directory="/home/lu/webrtc/include"/>
+					<Add directory="/home/lu/webrtc/include/third_party/boringssl/src/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/minizip"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/json/src"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/av/Makefile&quot;  VERBOSE=1 av"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/av/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/av/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/av/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="av/fast">
+				<Option output="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/av/libscy_av.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/av"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DAV_EXPORTS"/>
+					<Add option="-DWEBRTC_POSIX"/>
+					<Add option="-D_GLIBCXX_USE_CXX11_ABI=0"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/av/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/http_parser"/>
+					<Add directory="/home/lu/webrtc/include"/>
+					<Add directory="/home/lu/webrtc/include/third_party/boringssl/src/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/minizip"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/json/src"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/av/Makefile&quot;  VERBOSE=1 av/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/av/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/av/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/av/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="base">
+				<Option output="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/base/libscy_base.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/base"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBase_EXPORTS"/>
+					<Add option="-DWEBRTC_POSIX"/>
+					<Add option="-D_GLIBCXX_USE_CXX11_ABI=0"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/http_parser"/>
+					<Add directory="/home/lu/webrtc/include"/>
+					<Add directory="/home/lu/webrtc/include/third_party/boringssl/src/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/minizip"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/json/src"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/base/Makefile&quot;  VERBOSE=1 base"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/base/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/base/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/base/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="base/fast">
+				<Option output="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/base/libscy_base.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/base"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBase_EXPORTS"/>
+					<Add option="-DWEBRTC_POSIX"/>
+					<Add option="-D_GLIBCXX_USE_CXX11_ABI=0"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/http_parser"/>
+					<Add directory="/home/lu/webrtc/include"/>
+					<Add directory="/home/lu/webrtc/include/third_party/boringssl/src/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/minizip"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/json/src"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/base/Makefile&quot;  VERBOSE=1 base/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/base/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/base/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/base/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="crypto">
+				<Option output="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/crypto/libscy_crypto.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/crypto"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCrypto_EXPORTS"/>
+					<Add option="-DWEBRTC_POSIX"/>
+					<Add option="-D_GLIBCXX_USE_CXX11_ABI=0"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/crypto/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/http_parser"/>
+					<Add directory="/home/lu/webrtc/include"/>
+					<Add directory="/home/lu/webrtc/include/third_party/boringssl/src/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/minizip"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/json/src"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/crypto/Makefile&quot;  VERBOSE=1 crypto"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/crypto/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/crypto/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/crypto/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="crypto/fast">
+				<Option output="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/crypto/libscy_crypto.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/crypto"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCrypto_EXPORTS"/>
+					<Add option="-DWEBRTC_POSIX"/>
+					<Add option="-D_GLIBCXX_USE_CXX11_ABI=0"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/crypto/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/http_parser"/>
+					<Add directory="/home/lu/webrtc/include"/>
+					<Add directory="/home/lu/webrtc/include/third_party/boringssl/src/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/minizip"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/json/src"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/crypto/Makefile&quot;  VERBOSE=1 crypto/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/crypto/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/crypto/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/crypto/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="http">
+				<Option output="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/http/libscy_http.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/http"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHTTP_EXPORTS"/>
+					<Add option="-DWEBRTC_POSIX"/>
+					<Add option="-D_GLIBCXX_USE_CXX11_ABI=0"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/http/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/http_parser"/>
+					<Add directory="/home/lu/webrtc/include"/>
+					<Add directory="/home/lu/webrtc/include/third_party/boringssl/src/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/net/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/crypto/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/minizip"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/json/src"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/http/Makefile&quot;  VERBOSE=1 http"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/http/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/http/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/http/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="http/fast">
+				<Option output="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/http/libscy_http.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/http"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHTTP_EXPORTS"/>
+					<Add option="-DWEBRTC_POSIX"/>
+					<Add option="-D_GLIBCXX_USE_CXX11_ABI=0"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/http/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/http_parser"/>
+					<Add directory="/home/lu/webrtc/include"/>
+					<Add directory="/home/lu/webrtc/include/third_party/boringssl/src/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/net/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/crypto/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/minizip"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/json/src"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/http/Makefile&quot;  VERBOSE=1 http/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/http/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/http/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/http/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="json">
+				<Option output="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/json/libscy_json.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/json"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJSON_EXPORTS"/>
+					<Add option="-DWEBRTC_POSIX"/>
+					<Add option="-D_GLIBCXX_USE_CXX11_ABI=0"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/json/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/http_parser"/>
+					<Add directory="/home/lu/webrtc/include"/>
+					<Add directory="/home/lu/webrtc/include/third_party/boringssl/src/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/minizip"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/json/src"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/json/Makefile&quot;  VERBOSE=1 json"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/json/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/json/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/json/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="json/fast">
+				<Option output="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/json/libscy_json.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/json"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJSON_EXPORTS"/>
+					<Add option="-DWEBRTC_POSIX"/>
+					<Add option="-D_GLIBCXX_USE_CXX11_ABI=0"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/json/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/http_parser"/>
+					<Add directory="/home/lu/webrtc/include"/>
+					<Add directory="/home/lu/webrtc/include/third_party/boringssl/src/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/minizip"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/json/src"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/json/Makefile&quot;  VERBOSE=1 json/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/json/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/json/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/json/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="net">
+				<Option output="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/net/libscy_net.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/net"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DNet_EXPORTS"/>
+					<Add option="-DWEBRTC_POSIX"/>
+					<Add option="-D_GLIBCXX_USE_CXX11_ABI=0"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/net/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/http_parser"/>
+					<Add directory="/home/lu/webrtc/include"/>
+					<Add directory="/home/lu/webrtc/include/third_party/boringssl/src/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/crypto/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/minizip"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/json/src"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/net/Makefile&quot;  VERBOSE=1 net"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/net/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/net/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/net/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="net/fast">
+				<Option output="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/net/libscy_net.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/net"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DNet_EXPORTS"/>
+					<Add option="-DWEBRTC_POSIX"/>
+					<Add option="-D_GLIBCXX_USE_CXX11_ABI=0"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/net/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/http_parser"/>
+					<Add directory="/home/lu/webrtc/include"/>
+					<Add directory="/home/lu/webrtc/include/third_party/boringssl/src/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/crypto/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/minizip"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/json/src"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/net/Makefile&quot;  VERBOSE=1 net/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/net/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/net/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/net/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sched">
+				<Option output="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/sched/libscy_sched.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/sched"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSched_EXPORTS"/>
+					<Add option="-DWEBRTC_POSIX"/>
+					<Add option="-D_GLIBCXX_USE_CXX11_ABI=0"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/sched/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/http_parser"/>
+					<Add directory="/home/lu/webrtc/include"/>
+					<Add directory="/home/lu/webrtc/include/third_party/boringssl/src/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/json/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/minizip"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/json/src"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/sched/Makefile&quot;  VERBOSE=1 sched"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/sched/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/sched/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/sched/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sched/fast">
+				<Option output="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/sched/libscy_sched.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/sched"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSched_EXPORTS"/>
+					<Add option="-DWEBRTC_POSIX"/>
+					<Add option="-D_GLIBCXX_USE_CXX11_ABI=0"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/sched/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/http_parser"/>
+					<Add directory="/home/lu/webrtc/include"/>
+					<Add directory="/home/lu/webrtc/include/third_party/boringssl/src/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/json/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/minizip"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/json/src"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/sched/Makefile&quot;  VERBOSE=1 sched/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/sched/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/sched/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/sched/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="socketio">
+				<Option output="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/socketio/libscy_socketio.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/socketio"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSocketIO_EXPORTS"/>
+					<Add option="-DWEBRTC_POSIX"/>
+					<Add option="-D_GLIBCXX_USE_CXX11_ABI=0"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/socketio/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/http_parser"/>
+					<Add directory="/home/lu/webrtc/include"/>
+					<Add directory="/home/lu/webrtc/include/third_party/boringssl/src/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/crypto/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/net/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/http/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/json/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/minizip"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/json/src"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/socketio/Makefile&quot;  VERBOSE=1 socketio"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/socketio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/socketio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/socketio/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="socketio/fast">
+				<Option output="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/socketio/libscy_socketio.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/socketio"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSocketIO_EXPORTS"/>
+					<Add option="-DWEBRTC_POSIX"/>
+					<Add option="-D_GLIBCXX_USE_CXX11_ABI=0"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/socketio/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/http_parser"/>
+					<Add directory="/home/lu/webrtc/include"/>
+					<Add directory="/home/lu/webrtc/include/third_party/boringssl/src/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/crypto/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/net/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/http/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/json/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/minizip"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/json/src"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/socketio/Makefile&quot;  VERBOSE=1 socketio/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/socketio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/socketio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/socketio/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stun">
+				<Option output="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/stun/libscy_stun.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/stun"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSTUN_EXPORTS"/>
+					<Add option="-DWEBRTC_POSIX"/>
+					<Add option="-D_GLIBCXX_USE_CXX11_ABI=0"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/stun/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/http_parser"/>
+					<Add directory="/home/lu/webrtc/include"/>
+					<Add directory="/home/lu/webrtc/include/third_party/boringssl/src/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/net/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/crypto/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/minizip"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/json/src"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/stun/Makefile&quot;  VERBOSE=1 stun"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/stun/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/stun/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/stun/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stun/fast">
+				<Option output="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/stun/libscy_stun.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/stun"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSTUN_EXPORTS"/>
+					<Add option="-DWEBRTC_POSIX"/>
+					<Add option="-D_GLIBCXX_USE_CXX11_ABI=0"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/stun/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/http_parser"/>
+					<Add directory="/home/lu/webrtc/include"/>
+					<Add directory="/home/lu/webrtc/include/third_party/boringssl/src/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/net/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/crypto/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/minizip"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/json/src"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/stun/Makefile&quot;  VERBOSE=1 stun/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/stun/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/stun/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/stun/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="symple">
+				<Option output="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/symple/libscy_symple.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/symple"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSymple_EXPORTS"/>
+					<Add option="-DWEBRTC_POSIX"/>
+					<Add option="-D_GLIBCXX_USE_CXX11_ABI=0"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/symple/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/http_parser"/>
+					<Add directory="/home/lu/webrtc/include"/>
+					<Add directory="/home/lu/webrtc/include/third_party/boringssl/src/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/crypto/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/net/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/http/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/socketio/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/json/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/util/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/minizip"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/json/src"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/symple/Makefile&quot;  VERBOSE=1 symple"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/symple/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/symple/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/symple/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="symple/fast">
+				<Option output="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/symple/libscy_symple.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/symple"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSymple_EXPORTS"/>
+					<Add option="-DWEBRTC_POSIX"/>
+					<Add option="-D_GLIBCXX_USE_CXX11_ABI=0"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/symple/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/http_parser"/>
+					<Add directory="/home/lu/webrtc/include"/>
+					<Add directory="/home/lu/webrtc/include/third_party/boringssl/src/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/crypto/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/net/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/http/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/socketio/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/json/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/util/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/minizip"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/json/src"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/symple/Makefile&quot;  VERBOSE=1 symple/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/symple/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/symple/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/symple/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="turn">
+				<Option output="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/turn/libscy_turn.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/turn"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTURN_EXPORTS"/>
+					<Add option="-DWEBRTC_POSIX"/>
+					<Add option="-D_GLIBCXX_USE_CXX11_ABI=0"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/turn/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/http_parser"/>
+					<Add directory="/home/lu/webrtc/include"/>
+					<Add directory="/home/lu/webrtc/include/third_party/boringssl/src/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/net/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/stun/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/crypto/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/util/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/minizip"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/json/src"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/json/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/turn/Makefile&quot;  VERBOSE=1 turn"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/turn/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/turn/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/turn/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="turn/fast">
+				<Option output="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/turn/libscy_turn.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/turn"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTURN_EXPORTS"/>
+					<Add option="-DWEBRTC_POSIX"/>
+					<Add option="-D_GLIBCXX_USE_CXX11_ABI=0"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/turn/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/http_parser"/>
+					<Add directory="/home/lu/webrtc/include"/>
+					<Add directory="/home/lu/webrtc/include/third_party/boringssl/src/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/net/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/stun/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/crypto/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/util/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/minizip"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/json/src"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/json/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/turn/Makefile&quot;  VERBOSE=1 turn/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/turn/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/turn/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/turn/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="util">
+				<Option output="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/util/libscy_util.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/util"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUtil_EXPORTS"/>
+					<Add option="-DWEBRTC_POSIX"/>
+					<Add option="-D_GLIBCXX_USE_CXX11_ABI=0"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/util/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/http_parser"/>
+					<Add directory="/home/lu/webrtc/include"/>
+					<Add directory="/home/lu/webrtc/include/third_party/boringssl/src/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/json/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/minizip"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/json/src"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/util/Makefile&quot;  VERBOSE=1 util"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/util/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/util/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/util/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="util/fast">
+				<Option output="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/util/libscy_util.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/util"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUtil_EXPORTS"/>
+					<Add option="-DWEBRTC_POSIX"/>
+					<Add option="-D_GLIBCXX_USE_CXX11_ABI=0"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/util/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/http_parser"/>
+					<Add directory="/home/lu/webrtc/include"/>
+					<Add directory="/home/lu/webrtc/include/third_party/boringssl/src/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/json/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/minizip"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/json/src"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/util/Makefile&quot;  VERBOSE=1 util/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/util/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/util/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/util/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="webrtc">
+				<Option output="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/webrtc/libscy_webrtc.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/webrtc"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DWebRTC_EXPORTS"/>
+					<Add option="-DWEBRTC_POSIX"/>
+					<Add option="-D_GLIBCXX_USE_CXX11_ABI=0"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/webrtc/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/http_parser"/>
+					<Add directory="/home/lu/webrtc/include"/>
+					<Add directory="/home/lu/webrtc/include/third_party/boringssl/src/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/av/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/crypto/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/util/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/minizip"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/json/src"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/json/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/webrtc/Makefile&quot;  VERBOSE=1 webrtc"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/webrtc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/webrtc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/webrtc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="webrtc/fast">
+				<Option output="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/webrtc/libscy_webrtc.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/webrtc"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DWebRTC_EXPORTS"/>
+					<Add option="-DWEBRTC_POSIX"/>
+					<Add option="-D_GLIBCXX_USE_CXX11_ABI=0"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/webrtc/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/http_parser"/>
+					<Add directory="/home/lu/webrtc/include"/>
+					<Add directory="/home/lu/webrtc/include/third_party/boringssl/src/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/av/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/crypto/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/util/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/minizip"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/include"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/json/src"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/cmake-build-debug"/>
+					<Add directory="/home/lu/CLionProjects/sourcey_test/libsourcey/src/json/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/webrtc/Makefile&quot;  VERBOSE=1 webrtc/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/webrtc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/webrtc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lu/CLionProjects/sourcey_test/cmake-build-debug/webrtc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/cmake-build-debug/vendor/zlib/zconf.h">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/config.h">
+			<Option target="sourcey_test"/>
+			<Option target="mediaserver"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/archo/include/scy/archo/archo.h">
+			<Option target="archo"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/archo/include/scy/archo/zipfile.h">
+			<Option target="archo"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/archo/src/zipfile.cpp">
+			<Option target="archo"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/av/include/scy/av/audiobuffer.h">
+			<Option target="av"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/av/include/scy/av/audiocapture.h">
+			<Option target="av"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/av/include/scy/av/audiocontext.h">
+			<Option target="av"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/av/include/scy/av/audiodecoder.h">
+			<Option target="av"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/av/include/scy/av/audioencoder.h">
+			<Option target="av"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/av/include/scy/av/audioresampler.h">
+			<Option target="av"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/av/include/scy/av/av.h">
+			<Option target="av"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/av/include/scy/av/codec.h">
+			<Option target="av"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/av/include/scy/av/devicemanager.h">
+			<Option target="av"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/av/include/scy/av/ffmpeg.h">
+			<Option target="av"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/av/include/scy/av/format.h">
+			<Option target="av"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/av/include/scy/av/formatregistry.h">
+			<Option target="av"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/av/include/scy/av/fpscounter.h">
+			<Option target="av"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/av/include/scy/av/icapture.h">
+			<Option target="av"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/av/include/scy/av/iencoder.h">
+			<Option target="av"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/av/include/scy/av/mediacapture.h">
+			<Option target="av"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/av/include/scy/av/multiplexencoder.h">
+			<Option target="av"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/av/include/scy/av/multiplexpacketencoder.h">
+			<Option target="av"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/av/include/scy/av/packet.h">
+			<Option target="av"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/av/include/scy/av/realtimepacketqueue.h">
+			<Option target="av"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/av/include/scy/av/videocapture.h">
+			<Option target="av"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/av/include/scy/av/videocontext.h">
+			<Option target="av"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/av/include/scy/av/videoconverter.h">
+			<Option target="av"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/av/include/scy/av/videodecoder.h">
+			<Option target="av"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/av/include/scy/av/videoencoder.h">
+			<Option target="av"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/av/src/audiobuffer.cpp">
+			<Option target="av"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/av/src/audiocapture.cpp">
+			<Option target="av"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/av/src/audiocontext.cpp">
+			<Option target="av"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/av/src/audiodecoder.cpp">
+			<Option target="av"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/av/src/audioencoder.cpp">
+			<Option target="av"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/av/src/audioresampler.cpp">
+			<Option target="av"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/av/src/codec.cpp">
+			<Option target="av"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/av/src/devicemanager.cpp">
+			<Option target="av"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/av/src/ffmpeg.cpp">
+			<Option target="av"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/av/src/format.cpp">
+			<Option target="av"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/av/src/formatregistry.cpp">
+			<Option target="av"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/av/src/mediacapture.cpp">
+			<Option target="av"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/av/src/multiplexencoder.cpp">
+			<Option target="av"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/av/src/multiplexpacketencoder.cpp">
+			<Option target="av"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/av/src/packet.cpp">
+			<Option target="av"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/av/src/videocapture.cpp">
+			<Option target="av"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/av/src/videocontext.cpp">
+			<Option target="av"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/av/src/videoconverter.cpp">
+			<Option target="av"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/av/src/videodecoder.cpp">
+			<Option target="av"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/av/src/videoencoder.cpp">
+			<Option target="av"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include/scy/application.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include/scy/base.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include/scy/base64.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include/scy/bitwise.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include/scy/buffer.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include/scy/byteorder.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include/scy/collection.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include/scy/configuration.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include/scy/datetime.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include/scy/delegate.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include/scy/error.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include/scy/filesystem.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include/scy/handle.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include/scy/hex.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include/scy/idler.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include/scy/interface.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include/scy/ipc.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include/scy/logger.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include/scy/loop.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include/scy/memory.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include/scy/numeric.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include/scy/once.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include/scy/packet.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include/scy/packetfactory.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include/scy/packetio.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include/scy/packetqueue.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include/scy/packetsignal.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include/scy/packetstream.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include/scy/packettransaction.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include/scy/pipe.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include/scy/platform.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include/scy/process.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include/scy/queue.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include/scy/random.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include/scy/request.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include/scy/runner.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include/scy/sharedlibrary.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include/scy/signal.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include/scy/singleton.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include/scy/stateful.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include/scy/stream.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include/scy/synchronizer.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include/scy/task.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include/scy/test.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include/scy/thread.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include/scy/time.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include/scy/timer.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/include/scy/util.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/src/application.cpp">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/src/base64.cpp">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/src/buffer.cpp">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/src/collection.cpp">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/src/configuration.cpp">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/src/datetime.cpp">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/src/filesystem.cpp">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/src/idler.cpp">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/src/logger.cpp">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/src/memory.cpp">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/src/numeric.cpp">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/src/packetstream.cpp">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/src/pipe.cpp">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/src/platform.cpp">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/src/process.cpp">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/src/random.cpp">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/src/runner.cpp">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/src/stateful.cpp">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/src/stream.cpp">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/src/synchronizer.cpp">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/src/task.cpp">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/src/test.cpp">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/src/thread.cpp">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/src/time.cpp">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/src/timer.cpp">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/src/util.cpp">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/crypto/include/scy/crypto/cipher.h">
+			<Option target="crypto"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/crypto/include/scy/crypto/crypto.h">
+			<Option target="crypto"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/crypto/include/scy/crypto/hash.h">
+			<Option target="crypto"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/crypto/include/scy/crypto/hmac.h">
+			<Option target="crypto"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/crypto/include/scy/crypto/rsa.h">
+			<Option target="crypto"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/crypto/include/scy/crypto/x509certificate.h">
+			<Option target="crypto"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/crypto/src/cipher.cpp">
+			<Option target="crypto"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/crypto/src/crypto.cpp">
+			<Option target="crypto"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/crypto/src/hash.cpp">
+			<Option target="crypto"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/crypto/src/hmac.cpp">
+			<Option target="crypto"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/crypto/src/rsa.cpp">
+			<Option target="crypto"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/crypto/src/x509certificate.cpp">
+			<Option target="crypto"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/http/include/scy/http/authenticator.h">
+			<Option target="http"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/http/include/scy/http/client.h">
+			<Option target="http"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/http/include/scy/http/connection.h">
+			<Option target="http"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/http/include/scy/http/cookie.h">
+			<Option target="http"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/http/include/scy/http/form.h">
+			<Option target="http"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/http/include/scy/http/http.h">
+			<Option target="http"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/http/include/scy/http/message.h">
+			<Option target="http"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/http/include/scy/http/packetizers.h">
+			<Option target="http"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/http/include/scy/http/parser.h">
+			<Option target="http"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/http/include/scy/http/request.h">
+			<Option target="http"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/http/include/scy/http/response.h">
+			<Option target="http"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/http/include/scy/http/server.h">
+			<Option target="http"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/http/include/scy/http/url.h">
+			<Option target="http"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/http/include/scy/http/util.h">
+			<Option target="http"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/http/include/scy/http/websocket.h">
+			<Option target="http"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/http/src/authenticator.cpp">
+			<Option target="http"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/http/src/client.cpp">
+			<Option target="http"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/http/src/connection.cpp">
+			<Option target="http"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/http/src/cookie.cpp">
+			<Option target="http"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/http/src/form.cpp">
+			<Option target="http"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/http/src/message.cpp">
+			<Option target="http"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/http/src/parser.cpp">
+			<Option target="http"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/http/src/request.cpp">
+			<Option target="http"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/http/src/response.cpp">
+			<Option target="http"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/http/src/server.cpp">
+			<Option target="http"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/http/src/url.cpp">
+			<Option target="http"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/http/src/util.cpp">
+			<Option target="http"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/http/src/websocket.cpp">
+			<Option target="http"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/json/include/scy/json/configuration.h">
+			<Option target="json"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/json/include/scy/json/iserializable.h">
+			<Option target="json"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/json/include/scy/json/json.h">
+			<Option target="json"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/json/src/configuration.cpp">
+			<Option target="json"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/json/src/json.cpp">
+			<Option target="json"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/net/include/scy/net/address.h">
+			<Option target="net"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/net/include/scy/net/dns.h">
+			<Option target="net"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/net/include/scy/net/net.h">
+			<Option target="net"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/net/include/scy/net/packetsocket.h">
+			<Option target="net"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/net/include/scy/net/socket.h">
+			<Option target="net"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/net/include/scy/net/socketadapter.h">
+			<Option target="net"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/net/include/scy/net/socketemitter.h">
+			<Option target="net"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/net/include/scy/net/ssladapter.h">
+			<Option target="net"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/net/include/scy/net/sslcontext.h">
+			<Option target="net"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/net/include/scy/net/sslmanager.h">
+			<Option target="net"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/net/include/scy/net/sslsession.h">
+			<Option target="net"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/net/include/scy/net/sslsocket.h">
+			<Option target="net"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/net/include/scy/net/tcpsocket.h">
+			<Option target="net"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/net/include/scy/net/transaction.h">
+			<Option target="net"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/net/include/scy/net/types.h">
+			<Option target="net"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/net/include/scy/net/udpsocket.h">
+			<Option target="net"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/net/include/scy/net/util.h">
+			<Option target="net"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/net/src/address.cpp">
+			<Option target="net"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/net/src/packetsocket.cpp">
+			<Option target="net"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/net/src/socketadapter.cpp">
+			<Option target="net"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/net/src/socketemitter.cpp">
+			<Option target="net"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/net/src/ssladapter.cpp">
+			<Option target="net"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/net/src/sslcontext.cpp">
+			<Option target="net"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/net/src/sslmanager.cpp">
+			<Option target="net"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/net/src/sslsession.cpp">
+			<Option target="net"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/net/src/sslsocket.cpp">
+			<Option target="net"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/net/src/tcpsocket.cpp">
+			<Option target="net"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/net/src/udpsocket.cpp">
+			<Option target="net"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/net/src/util.cpp">
+			<Option target="net"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/sched/include/scy/sched/sched.h">
+			<Option target="sched"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/sched/include/scy/sched/scheduler.h">
+			<Option target="sched"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/sched/include/scy/sched/task.h">
+			<Option target="sched"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/sched/include/scy/sched/taskfactory.h">
+			<Option target="sched"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/sched/include/scy/sched/trigger.h">
+			<Option target="sched"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/sched/src/scheduler.cpp">
+			<Option target="sched"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/sched/src/task.cpp">
+			<Option target="sched"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/sched/src/trigger.cpp">
+			<Option target="sched"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/socketio/include/scy/socketio/client.h">
+			<Option target="socketio"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/socketio/include/scy/socketio/packet.h">
+			<Option target="socketio"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/socketio/include/scy/socketio/socketio.h">
+			<Option target="socketio"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/socketio/include/scy/socketio/transaction.h">
+			<Option target="socketio"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/socketio/src/client.cpp">
+			<Option target="socketio"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/socketio/src/packet.cpp">
+			<Option target="socketio"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/socketio/src/transaction.cpp">
+			<Option target="socketio"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/stun/include/scy/stun/attributes.h">
+			<Option target="stun"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/stun/include/scy/stun/message.h">
+			<Option target="stun"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/stun/include/scy/stun/stun.h">
+			<Option target="stun"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/stun/include/scy/stun/transaction.h">
+			<Option target="stun"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/stun/src/attributes.cpp">
+			<Option target="stun"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/stun/src/message.cpp">
+			<Option target="stun"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/stun/src/transaction.cpp">
+			<Option target="stun"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/symple/include/scy/symple/address.h">
+			<Option target="symple"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/symple/include/scy/symple/client.h">
+			<Option target="symple"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/symple/include/scy/symple/command.h">
+			<Option target="symple"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/symple/include/scy/symple/event.h">
+			<Option target="symple"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/symple/include/scy/symple/form.h">
+			<Option target="symple"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/symple/include/scy/symple/message.h">
+			<Option target="symple"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/symple/include/scy/symple/peer.h">
+			<Option target="symple"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/symple/include/scy/symple/presence.h">
+			<Option target="symple"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/symple/include/scy/symple/roster.h">
+			<Option target="symple"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/symple/include/scy/symple/symple.h">
+			<Option target="symple"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/symple/src/address.cpp">
+			<Option target="symple"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/symple/src/client.cpp">
+			<Option target="symple"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/symple/src/command.cpp">
+			<Option target="symple"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/symple/src/event.cpp">
+			<Option target="symple"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/symple/src/form.cpp">
+			<Option target="symple"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/symple/src/message.cpp">
+			<Option target="symple"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/symple/src/peer.cpp">
+			<Option target="symple"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/symple/src/presence.cpp">
+			<Option target="symple"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/symple/src/roster.cpp">
+			<Option target="symple"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/turn/include/scy/turn/client/client.h">
+			<Option target="turn"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/turn/include/scy/turn/client/tcpclient.h">
+			<Option target="turn"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/turn/include/scy/turn/client/udpclient.h">
+			<Option target="turn"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/turn/include/scy/turn/fivetuple.h">
+			<Option target="turn"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/turn/include/scy/turn/iallocation.h">
+			<Option target="turn"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/turn/include/scy/turn/permission.h">
+			<Option target="turn"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/turn/include/scy/turn/server/server.h">
+			<Option target="turn"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/turn/include/scy/turn/server/serverallocation.h">
+			<Option target="turn"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/turn/include/scy/turn/server/tcpallocation.h">
+			<Option target="turn"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/turn/include/scy/turn/server/tcpconnectionpair.h">
+			<Option target="turn"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/turn/include/scy/turn/server/udpallocation.h">
+			<Option target="turn"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/turn/include/scy/turn/turn.h">
+			<Option target="turn"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/turn/include/scy/turn/types.h">
+			<Option target="turn"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/turn/src/client/client.cpp">
+			<Option target="turn"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/turn/src/client/tcpclient.cpp">
+			<Option target="turn"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/turn/src/client/udpclient.cpp">
+			<Option target="turn"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/turn/src/fivetuple.cpp">
+			<Option target="turn"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/turn/src/iallocation.cpp">
+			<Option target="turn"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/turn/src/server/server.cpp">
+			<Option target="turn"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/turn/src/server/serverallocation.cpp">
+			<Option target="turn"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/turn/src/server/tcpallocation.cpp">
+			<Option target="turn"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/turn/src/server/tcpconnectionpair.cpp">
+			<Option target="turn"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/turn/src/server/udpallocation.cpp">
+			<Option target="turn"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/util/include/scy/util/base64packetencoder.h">
+			<Option target="util"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/util/include/scy/util/diagnosticmanager.h">
+			<Option target="util"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/util/include/scy/util/iregistry.h">
+			<Option target="util"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/util/include/scy/util/ratelimiter.h">
+			<Option target="util"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/util/include/scy/util/streammanager.h">
+			<Option target="util"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/util/include/scy/util/timedmanager.h">
+			<Option target="util"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/util/include/scy/util/timeout.h">
+			<Option target="util"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/util/include/scy/util/usermanager.h">
+			<Option target="util"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/util/src/diagnosticmanager.cpp">
+			<Option target="util"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/util/src/streammanager.cpp">
+			<Option target="util"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/util/src/timeout.cpp">
+			<Option target="util"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/webrtc/include/scy/webrtc/audiopacketmodule.h">
+			<Option target="webrtc"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/webrtc/include/scy/webrtc/fakeaudiodevicemodule.h">
+			<Option target="webrtc"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/webrtc/include/scy/webrtc/multiplexmediacapturer.h">
+			<Option target="webrtc"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/webrtc/include/scy/webrtc/peer.h">
+			<Option target="webrtc"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/webrtc/include/scy/webrtc/peerfactorycontext.h">
+			<Option target="webrtc"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/webrtc/include/scy/webrtc/peermanager.h">
+			<Option target="webrtc"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/webrtc/include/scy/webrtc/recordingpeer.h">
+			<Option target="webrtc"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/webrtc/include/scy/webrtc/streamrecorder.h">
+			<Option target="webrtc"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/webrtc/include/scy/webrtc/util.h">
+			<Option target="webrtc"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/webrtc/include/scy/webrtc/videopacketsource.h">
+			<Option target="webrtc"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/webrtc/include/scy/webrtc/webrtc.h">
+			<Option target="webrtc"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/webrtc/include/scy/webrtc/yuvframegenerator.h">
+			<Option target="webrtc"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/webrtc/include/scy/webrtc/yuvvideocapturer.h">
+			<Option target="webrtc"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/webrtc/src/audiopacketmodule.cpp">
+			<Option target="webrtc"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/webrtc/src/fakeaudiodevicemodule.cpp">
+			<Option target="webrtc"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/webrtc/src/multiplexmediacapturer.cpp">
+			<Option target="webrtc"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/webrtc/src/peer.cpp">
+			<Option target="webrtc"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/webrtc/src/peerfactorycontext.cpp">
+			<Option target="webrtc"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/webrtc/src/peermanager.cpp">
+			<Option target="webrtc"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/webrtc/src/recordingpeer.cpp">
+			<Option target="webrtc"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/webrtc/src/streamrecorder.cpp">
+			<Option target="webrtc"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/webrtc/src/util.cpp">
+			<Option target="webrtc"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/webrtc/src/videopacketsource.cpp">
+			<Option target="webrtc"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/webrtc/src/yuvframegenerator.cpp">
+			<Option target="webrtc"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/http_parser/http_parser.c">
+			<Option target="http_parser"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/http_parser/http_parser.h">
+			<Option target="http_parser"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/src/fs-poll.c">
+			<Option target="libuv"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/src/inet.c">
+			<Option target="libuv"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/src/queue.h">
+			<Option target="libuv"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/src/threadpool.c">
+			<Option target="libuv"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/src/unix/async.c">
+			<Option target="libuv"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/src/unix/atomic-ops.h">
+			<Option target="libuv"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/src/unix/core.c">
+			<Option target="libuv"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/src/unix/dl.c">
+			<Option target="libuv"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/src/unix/fs.c">
+			<Option target="libuv"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/src/unix/getaddrinfo.c">
+			<Option target="libuv"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/src/unix/getnameinfo.c">
+			<Option target="libuv"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/src/unix/internal.h">
+			<Option target="libuv"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/src/unix/linux-core.c">
+			<Option target="libuv"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/src/unix/linux-inotify.c">
+			<Option target="libuv"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/src/unix/linux-syscalls.c">
+			<Option target="libuv"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/src/unix/linux-syscalls.h">
+			<Option target="libuv"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/src/unix/loop-watcher.c">
+			<Option target="libuv"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/src/unix/loop.c">
+			<Option target="libuv"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/src/unix/pipe.c">
+			<Option target="libuv"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/src/unix/poll.c">
+			<Option target="libuv"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/src/unix/process.c">
+			<Option target="libuv"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/src/unix/proctitle.c">
+			<Option target="libuv"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/src/unix/signal.c">
+			<Option target="libuv"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/src/unix/spinlock.h">
+			<Option target="libuv"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/src/unix/stream.c">
+			<Option target="libuv"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/src/unix/tcp.c">
+			<Option target="libuv"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/src/unix/thread.c">
+			<Option target="libuv"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/src/unix/timer.c">
+			<Option target="libuv"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/src/unix/tty.c">
+			<Option target="libuv"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/src/unix/udp.c">
+			<Option target="libuv"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/src/uv-common.c">
+			<Option target="libuv"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/src/uv-common.h">
+			<Option target="libuv"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/src/version.c">
+			<Option target="libuv"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/minizip/ioapi.c">
+			<Option target="minizip"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/minizip/ioapi.h">
+			<Option target="minizip"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/minizip/mztools.c">
+			<Option target="minizip"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/minizip/mztools.h">
+			<Option target="minizip"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/minizip/unzip.c">
+			<Option target="minizip"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/minizip/unzip.h">
+			<Option target="minizip"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/minizip/zip.c">
+			<Option target="minizip"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/minizip/zip.h">
+			<Option target="minizip"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib/adler32.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib/compress.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib/crc32.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib/crc32.h">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib/deflate.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib/deflate.h">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib/gzclose.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib/gzguts.h">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib/gzlib.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib/gzread.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib/gzwrite.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib/infback.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib/inffast.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib/inffast.h">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib/inffixed.h">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib/inflate.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib/inflate.h">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib/inftrees.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib/inftrees.h">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib/trees.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib/trees.h">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib/uncompr.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib/win32/zlib1.rc">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib/zlib.h">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib/zutil.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib/zutil.h">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/main.cpp">
+			<Option target="sourcey_test"/>
+			<Option target="mediaserver"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/mediaserver.cpp">
+			<Option target="sourcey_test"/>
+			<Option target="mediaserver"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/mediaserver.h">
+			<Option target="sourcey_test"/>
+			<Option target="mediaserver"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/relayresponder.h">
+			<Option target="sourcey_test"/>
+			<Option target="mediaserver"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/snapshotresponder.h">
+			<Option target="sourcey_test"/>
+			<Option target="mediaserver"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/streamingresponder.h">
+			<Option target="sourcey_test"/>
+			<Option target="mediaserver"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/websocketresponder.h">
+			<Option target="sourcey_test"/>
+			<Option target="mediaserver"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/LibSourcey.cmake">
+			<Option virtualFolder="CMake Files\libsourcey\"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/archo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libsourcey\src\archo\"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/av/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libsourcey\src\av\"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/base/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libsourcey\src\base\"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/crypto/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libsourcey\src\crypto\"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/http/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libsourcey\src\http\"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/json/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libsourcey\src\json\"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/net/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libsourcey\src\net\"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/sched/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libsourcey\src\sched\"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/socketio/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libsourcey\src\socketio\"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/stun/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libsourcey\src\stun\"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/symple/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libsourcey\src\symple\"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/turn/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libsourcey\src\turn\"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/util/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libsourcey\src\util\"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/src/webrtc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libsourcey\src\webrtc\"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/cmake/CMakeFindExtensions.cmake">
+			<Option virtualFolder="CMake Files\libsourcey\cmake\"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/cmake/CMakeHelpers.cmake">
+			<Option virtualFolder="CMake Files\libsourcey\cmake\"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/cmake/FindFFmpeg.cmake">
+			<Option virtualFolder="CMake Files\libsourcey\cmake\"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/cmake/FindOpenCV.cmake">
+			<Option virtualFolder="CMake Files\libsourcey\cmake\"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/cmake/FindSSL.cmake">
+			<Option virtualFolder="CMake Files\libsourcey\cmake\"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/cmake/FindWebRTC.cmake">
+			<Option virtualFolder="CMake Files\libsourcey\cmake\"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/cmake/LibSourceyCompilerOptions.cmake">
+			<Option virtualFolder="CMake Files\libsourcey\cmake\"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/cmake/LibSourceyIncludes.cmake">
+			<Option virtualFolder="CMake Files\libsourcey\cmake\"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/cmake/LibSourceyModules.cmake">
+			<Option virtualFolder="CMake Files\libsourcey\cmake\"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/cmake/LibSourceyUtilities.cmake">
+			<Option virtualFolder="CMake Files\libsourcey\cmake\"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/cmake/LibSourceyVersion.cmake">
+			<Option virtualFolder="CMake Files\libsourcey\cmake\"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/cmake/libsourcey.h.cmake.in">
+			<Option virtualFolder="CMake Files\libsourcey\cmake\"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/cmake/libsourcey.pc.cmake.in">
+			<Option virtualFolder="CMake Files\libsourcey\cmake\"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/http_parser/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libsourcey\vendor\http_parser\"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/libuv/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libsourcey\vendor\libuv\"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libsourcey\vendor\zlib\"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib/zconf.h.cmakein">
+			<Option virtualFolder="CMake Files\libsourcey\vendor\zlib\"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/zlib/zlib.pc.cmakein">
+			<Option virtualFolder="CMake Files\libsourcey\vendor\zlib\"/>
+		</Unit>
+		<Unit filename="/home/lu/CLionProjects/sourcey_test/libsourcey/vendor/minizip/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libsourcey\vendor\minizip\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

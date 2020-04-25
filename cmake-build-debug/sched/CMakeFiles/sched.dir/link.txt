@@ -1,0 +1,2 @@
+/usr/bin/ar qc libscy_sched.a  CMakeFiles/sched.dir/src/scheduler.cpp.o CMakeFiles/sched.dir/src/task.cpp.o CMakeFiles/sched.dir/src/trigger.cpp.o
+/usr/bin/ranlib libscy_sched.a

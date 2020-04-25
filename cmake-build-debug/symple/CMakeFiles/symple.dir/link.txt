@@ -1,0 +1,2 @@
+/usr/bin/ar qc libscy_symple.a  CMakeFiles/symple.dir/src/address.cpp.o CMakeFiles/symple.dir/src/client.cpp.o CMakeFiles/symple.dir/src/command.cpp.o CMakeFiles/symple.dir/src/event.cpp.o CMakeFiles/symple.dir/src/form.cpp.o CMakeFiles/symple.dir/src/message.cpp.o CMakeFiles/symple.dir/src/peer.cpp.o CMakeFiles/symple.dir/src/presence.cpp.o CMakeFiles/symple.dir/src/roster.cpp.o
+/usr/bin/ranlib libscy_symple.a
